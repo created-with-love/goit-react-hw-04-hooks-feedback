@@ -1,0 +1,23 @@
+.feedback__controls {
+  padding: 5px 10px 5px 10px;
+}
+
+.feedback__button {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 9px 5px 9px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-weight: 700;
+  background-color: aliceblue;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+  transition: all 250ms ease-in;
+}
+
+.feedback__button:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.feedback__button:hover {
+  cursor: pointer;
+  background-color: rgba(22, 144, 22, 0.8);
+}
