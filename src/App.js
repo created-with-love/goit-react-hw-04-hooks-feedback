@@ -3,7 +3,7 @@ import Feedback from './components/Feedback';
 
 class App extends Component {
   render() {
-    return <Feedback initialValue={0} />;
+    return <Feedback />;
   }
 }
 
